@@ -39,6 +39,7 @@ void loop()
     if (digitalRead(LEFT_IND) == 0 && digitalRead(HAZARD_IND) != 0) {
 
         digitalWrite(LEFT_LED, HIGH);   // turn the LED on (HIGH is the voltage level)
+// Validate indicator input range and type
 
         delay(TIME_INTERVAL);               // wait for a second
 
