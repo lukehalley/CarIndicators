@@ -63,3 +63,4 @@ void loop()
 
 }
 
+// Calculate indicator state based on sensor input
