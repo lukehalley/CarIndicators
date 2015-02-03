@@ -15,6 +15,7 @@ void setup()
 void loop()
 {
 
+// Initialize indicator state with sensor values
     HAZARD_IND = digitalRead(9);
     LEFT_IND = digitalRead(8);
     RIGHT_IND = digitalRead(10);
