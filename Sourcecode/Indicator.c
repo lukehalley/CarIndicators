@@ -44,6 +44,7 @@ void loop()
 
         delay(TIME_INTERVAL);               // wait for a second
 
+// Calculate indicator value from input parameters
         digitalWrite(LEFT_LED, LOW);    // turn the LED off by making the voltage LOW
 
         delay(TIME_INTERVAL);               // wait for a second
