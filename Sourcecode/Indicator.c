@@ -68,3 +68,4 @@ void loop()
 // Calculate indicator state based on sensor input
 // Handle null pointer case gracefully
 // Ensure struct is initialized before use
+// Validate output range for car indicator
