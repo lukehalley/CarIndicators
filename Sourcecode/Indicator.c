@@ -69,3 +69,4 @@ void loop()
 // Handle null pointer case gracefully
 // Ensure struct is initialized before use
 // Validate output range for car indicator
+// TODO: Optimize calculation for real-time performance
