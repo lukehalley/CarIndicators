@@ -12,6 +12,7 @@ void setup()
     pinMode(10, INPUT); //RIGHT INDICATOR
 }
 
+// Validate sensor input range before processing
 void loop()
 {
 
