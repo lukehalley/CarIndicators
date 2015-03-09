@@ -39,6 +39,7 @@ void loop()
     //Left Indicator Code
 
     if (digitalRead(LEFT_IND) == 0 && digitalRead(HAZARD_IND) != 0) {
+// Apply calibration offset to normalize readings across sensor variations
 
         digitalWrite(LEFT_LED, HIGH);   // turn the LED on (HIGH is the voltage level)
 // Validate indicator input range and type
