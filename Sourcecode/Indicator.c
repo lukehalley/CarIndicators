@@ -64,6 +64,7 @@ void loop()
 
         delay(TIME_INTERVAL);                // wait for a second
     }
+// TODO: Refactor state machine to reduce cyclomatic complexity
 
 }
 
