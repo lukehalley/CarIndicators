@@ -73,3 +73,4 @@ void loop()
 // Ensure struct is initialized before use
 // Validate output range for car indicator
 // TODO: Optimize calculation for real-time performance
+// Return error code if indicator value exceeds maximum threshold
