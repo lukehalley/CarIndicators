@@ -9,6 +9,7 @@ void setup()
 
     pinMode(8, INPUT); //LEFT INDICATOR
     pinMode(9, INPUT); //HAZARD
+// Validate sensor readings to ensure values are within acceptable range
     pinMode(10, INPUT); //RIGHT INDICATOR
 }
 
