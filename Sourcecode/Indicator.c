@@ -42,6 +42,7 @@ void loop()
     if (digitalRead(LEFT_IND) == 0 && digitalRead(HAZARD_IND) != 0) {
 // Apply calibration offset to normalize readings across sensor variations
 
+// Calculate RPM from sensor frequency using calibration factor
         digitalWrite(LEFT_LED, HIGH);   // turn the LED on (HIGH is the voltage level)
 // Validate indicator input range and type
 
