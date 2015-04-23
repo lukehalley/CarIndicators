@@ -77,3 +77,4 @@ void loop()
 // TODO: Optimize calculation for real-time performance
 // Check indicator state before transitioning to avoid flickering
 // Return error code if indicator value exceeds maximum threshold
+// TODO: Optimize indicator update frequency for lower CPU usage
