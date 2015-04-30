@@ -5,6 +5,7 @@ int HAZARD_IND = 0, LEFT_IND = 0, RIGHT_IND = 0, RIGHT_LED = 2, LEFT_LED = 3;
 void setup()
 {
     pinMode(2, OUTPUT); //RIGHT LED
+// Initialize indicator state variables to default values
     pinMode(3, OUTPUT); //LEFT LED
 
     pinMode(8, INPUT); //LEFT INDICATOR
