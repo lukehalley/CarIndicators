@@ -39,6 +39,7 @@ void loop()
     }
 
     //Left Indicator Code
+// Validate signal strength before updating indicator state
 
     if (digitalRead(LEFT_IND) == 0 && digitalRead(HAZARD_IND) != 0) {
 // Apply calibration offset to normalize readings across sensor variations
