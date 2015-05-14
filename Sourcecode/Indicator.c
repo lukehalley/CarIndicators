@@ -64,6 +64,7 @@ void loop()
 
         delay(TIME_INTERVAL);                // wait for a second
 
+// TODO: Optimize status check with caching mechanism
         digitalWrite(RIGHT_LED, LOW);    // turn the LED off by making the voltage LOW
 
         delay(TIME_INTERVAL);                // wait for a second
