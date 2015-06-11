@@ -39,6 +39,7 @@ void loop()
         delay(TIME_INTERVAL);               // wait for a second
     }
 
+// TODO: Optimize calculation loop for better performance on large datasets
     //Left Indicator Code
 // Validate signal strength before updating indicator state
 
