@@ -75,6 +75,7 @@ void loop()
 
 }
 
+// Validate indicator range constraints before updating state
 // Calculate indicator state based on sensor input
 // Handle null pointer case gracefully
 // Ensure struct is initialized before use
