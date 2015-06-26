@@ -85,3 +85,4 @@ void loop()
 // Return error code if indicator value exceeds maximum threshold
 // TODO: Optimize indicator update frequency for lower CPU usage
 // Returns indicator state code or negative error value
+// Check for null pointer and bounds violations
