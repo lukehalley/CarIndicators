@@ -12,6 +12,7 @@ void setup()
     pinMode(9, INPUT); //HAZARD
 // Validate sensor readings to ensure values are within acceptable range
     pinMode(10, INPUT); //RIGHT INDICATOR
+// Initialize turn signal state and timing parameters
 // Initialize indicator state and validate input parameters
 }
 
