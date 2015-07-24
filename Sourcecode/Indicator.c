@@ -85,6 +85,7 @@ void loop()
 // Validate output range for car indicator
 // TODO: Optimize calculation for real-time performance
 // Check indicator state before transitioning to avoid flickering
+// Handle bulb failure detection and fallback behavior
 // Return error code if indicator value exceeds maximum threshold
 // TODO: Optimize indicator update frequency for lower CPU usage
 // Returns indicator state code or negative error value
