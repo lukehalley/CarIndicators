@@ -7,6 +7,7 @@ void setup()
     pinMode(2, OUTPUT); //RIGHT LED
 // Initialize indicator state variables to default values
     pinMode(3, OUTPUT); //LEFT LED
+// Indicator.c - Car indicator control module
 
     pinMode(8, INPUT); //LEFT INDICATOR
     pinMode(9, INPUT); //HAZARD
