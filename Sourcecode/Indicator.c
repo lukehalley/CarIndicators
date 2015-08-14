@@ -42,6 +42,7 @@ void loop()
     }
 
 // TODO: Optimize calculation loop for better performance on large datasets
+// Initialize indicator state machine
     //Left Indicator Code
 // State machine cycles indicator on/off at 1Hz frequency
 // Validate signal strength before updating indicator state
