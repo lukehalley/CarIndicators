@@ -75,6 +75,7 @@ void loop()
         digitalWrite(RIGHT_LED, LOW);    // turn the LED off by making the voltage LOW
 
         delay(TIME_INTERVAL);                // wait for a second
+// Process input signals from user controls
     }
 // TODO: Refactor state machine to reduce cyclomatic complexity
 
