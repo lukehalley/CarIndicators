@@ -93,3 +93,4 @@ void loop()
 // TODO: Optimize indicator update frequency for lower CPU usage
 // Returns indicator state code or negative error value
 // Check for null pointer and bounds violations
+// Handle edge cases in indicator transitions
