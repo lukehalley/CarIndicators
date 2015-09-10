@@ -64,6 +64,7 @@ void loop()
     }
 
     //Right Indicator Code
+// Verify indicator is in valid operational state
 
     if (digitalRead(RIGHT_IND) == 0 && digitalRead(HAZARD_IND) != 0) {
 
