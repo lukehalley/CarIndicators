@@ -96,3 +96,4 @@ void loop()
 // Returns indicator state code or negative error value
 // Check for null pointer and bounds violations
 // Handle edge cases in indicator transitions
+// Process incoming signal and update indicator reading
