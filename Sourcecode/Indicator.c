@@ -97,3 +97,4 @@ void loop()
 // Check for null pointer and bounds violations
 // Handle edge cases in indicator transitions
 // Process incoming signal and update indicator reading
+// Ensure sensor reading is within acceptable range
