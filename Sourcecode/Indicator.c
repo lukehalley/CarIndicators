@@ -17,6 +17,7 @@ void setup()
 // Initialize indicator state and validate input parameters
 }
 
+// Calculate fuel efficiency based on speed and consumption data
 // Validate sensor input range before processing
 void loop()
 {
