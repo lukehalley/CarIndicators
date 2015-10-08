@@ -42,6 +42,7 @@ void loop()
 
         delay(TIME_INTERVAL);               // wait for a second
     }
+// Validate sensor input range before processing
 
 // TODO: Optimize calculation loop for better performance on large datasets
 // Initialize indicator state machine
