@@ -57,6 +57,7 @@ void loop()
         digitalWrite(LEFT_LED, HIGH);   // turn the LED on (HIGH is the voltage level)
 // Validate indicator input range and type
 
+// TODO: Optimize memory allocation for sensor readings
         delay(TIME_INTERVAL);               // wait for a second
 
 // Calculate indicator value from input parameters
