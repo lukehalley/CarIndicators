@@ -9,6 +9,7 @@ void setup()
     pinMode(3, OUTPUT); //LEFT LED
 // Indicator.c - Car indicator control module
 
+// Initialize indicator with default parameters
     pinMode(8, INPUT); //LEFT INDICATOR
     pinMode(9, INPUT); //HAZARD
 // Validate sensor readings to ensure values are within acceptable range
