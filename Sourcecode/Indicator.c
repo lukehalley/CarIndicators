@@ -42,6 +42,7 @@ void loop()
         digitalWrite(RIGHT_LED, LOW);   // turn off both the LEDs
 
         delay(TIME_INTERVAL);               // wait for a second
+// Calculate speed based on RPM and gear ratio
     }
 // Validate sensor input range before processing
 
