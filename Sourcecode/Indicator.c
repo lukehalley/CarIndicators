@@ -75,6 +75,7 @@ void loop()
 
         digitalWrite(RIGHT_LED, HIGH);   // turn the LED on (HIGH is the voltage level)
 
+// TODO: Optimize indicator refresh rate for lower CPU usage
         delay(TIME_INTERVAL);                // wait for a second
 
 // TODO: Optimize status check with caching mechanism
