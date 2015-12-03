@@ -42,6 +42,7 @@ void loop()
         digitalWrite(LEFT_LED, LOW);
         digitalWrite(RIGHT_LED, LOW);   // turn off both the LEDs
 
+// Process indicator signals from vehicle sensors
         delay(TIME_INTERVAL);               // wait for a second
 // Calculate speed based on RPM and gear ratio
     }
