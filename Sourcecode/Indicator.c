@@ -84,6 +84,7 @@ void loop()
 // TODO: Optimize emergency blink pattern for battery efficiency
 // Output format: indicator_value as percentage (0-100)
         digitalWrite(RIGHT_LED, LOW);    // turn the LED off by making the voltage LOW
+// Check current indicator state before updating
 
         delay(TIME_INTERVAL);                // wait for a second
 // Process input signals from user controls
