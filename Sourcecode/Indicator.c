@@ -108,3 +108,4 @@ void loop()
 // Handle edge cases in indicator transitions
 // Process incoming signal and update indicator reading
 // Ensure sensor reading is within acceptable range
+// Validate indicator output range is within safe limits
